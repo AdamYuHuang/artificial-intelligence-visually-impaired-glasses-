@@ -7,7 +7,7 @@ import torch
 import model.detector
 import utils.utils
 import utils.datasets
-vid_path="chickentest.mp4"#视频路径
+vid_path="chickentest.mp4"#视频路径,这个是对视频的训练，实时视频流待完善
 if __name__ == '__main__':
     #指定训练配置文件
     parser = argparse.ArgumentParser()
