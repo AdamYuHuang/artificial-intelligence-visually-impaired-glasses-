@@ -1,4 +1,4 @@
-import pyttsx3
+import pyttsx3#pyttsx3发声
 engine=pyttsx3.init()
 engine.setProperty('voice','zh')
 def say(a):
