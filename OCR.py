@@ -21,7 +21,7 @@ endpoint =
 # </snippet_vars>
 OCR=[]
 computervision_client = ComputerVisionClient(endpoint, CognitiveServicesCredentials(subscription_key))
-with open(r"C:\Users\32385\Desktop\OCR.jpg", 'rb') as f:
+with open(r"path", 'rb') as f:
     #result = computervision_client.describe_image_in_stream(f, max_candidates=5, language='zh', description_exclude=None, model_version='latest', custom_headers=None, raw=False, callback=None)
    #print(*result.captions)
     #print(result)
